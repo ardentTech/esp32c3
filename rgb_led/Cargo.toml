@@ -1,0 +1,15 @@
+[package]
+name = "rgb_led"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.86"
+
+[dependencies]
+esp-bootloader-esp-idf = { workspace = true }
+esp-hal = { workspace = true }
+esp-println = { workspace = true }
+smart-leds = "0.4.0"
+smart-leds-trait = "0.3.1"
+
+[dev-dependencies]
+esp-backtrace = { version = "0.17.0", features = ["println"] }
