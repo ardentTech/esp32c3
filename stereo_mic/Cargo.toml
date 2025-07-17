@@ -1,0 +1,10 @@
+[package]
+name = "stereo_mic"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.86"
+
+[dependencies]
+esp-bootloader-esp-idf = { workspace = true }
+esp-hal = { workspace = true }
+esp-println = { workspace = true }

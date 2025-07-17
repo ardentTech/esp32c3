@@ -1,8 +1,6 @@
 #![no_std]
 #![no_main]
 
-
-
 //use esp_backtrace as _;
 use esp_hal::{delay::Delay, rmt::Rmt, time::Rate};
 use esp_hal::clock::CpuClock;
