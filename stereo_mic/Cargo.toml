@@ -8,3 +8,4 @@ rust-version = "1.86"
 esp-bootloader-esp-idf = { workspace = true }
 esp-hal = { workspace = true }
 esp-println = { workspace = true }
+tlv320dac3100 = { git = "https://github.com/ardentTech/tlv320dac3100.git", rev = "c78f2a7" }

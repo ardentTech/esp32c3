@@ -627,6 +627,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "2304e00983f87ffb38b55b444b5e3b60a884b5d30c0fca7d82fe33449bbe55ea"
 
 [[package]]
+name = "i2s_tx"
+version = "0.1.0"
+dependencies = [
+ "esp-bootloader-esp-idf",
+ "esp-hal",
+ "esp-println",
+]
+
+[[package]]
 name = "ident_case"
 version = "1.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -944,6 +953,7 @@ dependencies = [
  "esp-bootloader-esp-idf",
  "esp-hal",
  "esp-println",
+ "tlv320dac3100",
 ]
 
 [[package]]
@@ -992,6 +1002,14 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "06794f8f6c5c898b3275aebefa6b8a1cb24cd2c6c79397ab15774837a0bc5755"
 dependencies = [
  "winapi-util",
+]
+
+[[package]]
+name = "tlv320dac3100"
+version = "0.1.0"
+source = "git+https://github.com/ardentTech/tlv320dac3100.git?rev=c78f2a7#c78f2a704e559018825c67e86da08ea611028fd3"
+dependencies = [
+ "embedded-hal 1.0.0",
 ]
 
 [[package]]

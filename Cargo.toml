@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
-members = [ "rgb_led", "stereo_mic"]
+members = ["i2s_rx", "rgb_led", "stereo_mic"]
 
 [workspace.dependencies]
 critical-section = "1.2.0"
